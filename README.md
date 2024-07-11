@@ -28,7 +28,7 @@ This project involves applying linear programming to the satisfiability problem 
 
 ## Project Structure
 
-\`\`\`plaintext
+```plaintext
 ├── src
 │   ├── satBounds3.c
 ├── README.md
