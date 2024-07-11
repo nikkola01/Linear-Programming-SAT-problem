@@ -32,7 +32,7 @@ This project involves applying linear programming to the satisfiability problem 
 ├── src
 │   ├── satBounds3.c
 ├── README.md
-\`\`\`
+```
 
 ### satBounds3.c
 Contains the main implementation for solving the SAT problem using linear programming and randomization techniques.
@@ -56,17 +56,17 @@ Contains the main implementation for solving the SAT problem using linear progra
 
 To run this project, you need to have a C compiler (e.g., gcc) and GLPK installed on your system. Clone the repository and compile the C file:
 
-\`\`\`bash
-git clone https://github.com/yourusername/advanced-algorithms-assignment.git
-cd advanced-algorithms-assignment/src
+```bash
+git clone https://github.com/nikkola01/Linear-Programming-SAT-problem.git
+cd advanced-algorithms-assignment/src 
 gcc satBounds3.c -o satBounds3 -lglpk
-\`\`\`
+```
 
 Run the program with a SAT instance file:
 
-\`\`\`bash
+```bash
 ./satBounds3 path_to_sat_instance.cnf
-\`\`\`
+```
 
 ## Author
 
